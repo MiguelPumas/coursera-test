@@ -7,13 +7,13 @@
 }
 
 p { 
-	/*border: 1px solid black;*/
 	background-color: #fab672;
 	font-family: Helvetica;
 	width: 90%;
 	margin-right: auto;
-  	margin-left: auto;
+  margin-left: auto;
 }
+
 h1{
 	text-align: center;
 	width: 75%;
@@ -29,16 +29,16 @@ h2 {
 	margin-right: 2%;
 }
 
-.titulo2{
+.titulo2 {
 	background-color: #338AFF;
 }
 
-.titulo3{
+.titulo3 {
 	background-color: #C433FF;
 }
 
 
-@media (min-width: 992px){
+@media (min-width: 992px) {
   .col-lg-3 {
 	    width: 25%;
 	    float: left;
