@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 .row {
@@ -44,9 +43,10 @@ h2 {
 	    width: 25%;
 	    float: left;
 	    border: 1px solid black;
-		margin-right: 0.5%;
+			margin-right: 0.5%;
 	  	margin-left: 0.5%;
   }
+  
 }
 section{
 	background-color: #fab672;
@@ -62,16 +62,19 @@ section{
   		margin-top: 0.5%;
   		margin-bottom: 0.5%;
   }
+  .col3 {
+  	width:  84.32%;
+  }
 
 }
 
 @media (max-width:  767px){
 	.col-xs-12{
-		width: 100%;
+		width: 75%;
 		border: 1px solid black;
 		margin-right: 0.5%;
-  		margin-left: 0.5%;
-  		margin-top: 0.5%;
-  		margin-bottom: 0.5%;
+  	margin-left: 0.5%;
+  	margin-top: 0.5%;
+  	margin-bottom: 0.5%;
 	}
 }
