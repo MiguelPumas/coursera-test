@@ -64,6 +64,7 @@ section{
   }
   .col3 {
   	width:  84.32%;
+  	float:  left;
   }
 
 }
