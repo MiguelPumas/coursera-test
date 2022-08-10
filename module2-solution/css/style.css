@@ -8,7 +8,7 @@ p {
 	font-family: Helvetica;
 	width: 90%;
 	margin-right: auto;
-  margin-left: auto;
+  	margin-left: auto;
 }
 
 h1{
@@ -44,8 +44,8 @@ section {
 	  width: 25%;
 	  float: left;
 	  border: 1px solid black;
-		margin-right: 0.5%;
-	 	margin-left: 0.5%;
+	  margin-right: 0.5%;
+	  margin-left: 0.5%;
   }
   
 }
@@ -54,27 +54,27 @@ section {
 @media (min-width:  768px) and (max-width: 991px){
 	.col-md-5 {
 		width: 41.66%;
-	    float: left;
-	    border: 1px solid black;
-	    margin-right: 0.5%;
+	    	float: left;
+	    	border: 1px solid black;
+	    	margin-right: 0.5%;
   		margin-left: 0.5%;
   		margin-top: 0.5%;
   		margin-bottom: 0.5%;
-  }
-  .col3 {
-  	width:  84.32%;
-  	float:  left;
-  }
+ 	 }
+  	.col3 {
+  		width:  84.32%;
+  		float:  left;
+  	}
 
 }
 
 @media (max-width:  767px){
-	.col-xs-12{
+	.col-xs-12 {
 		width: 75%;
 		border: 1px solid black;
 		margin-right: 0.5%;
-  	margin-left: 0.5%;
-  	margin-top: 0.5%;
-  	margin-bottom: 0.5%;
+  		margin-left: 0.5%;
+  		margin-top: 0.5%;
+  		margin-bottom: 0.5%;
 	}
 }
